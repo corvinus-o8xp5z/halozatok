@@ -1,0 +1,56 @@
+﻿div {
+    background-color: fuchsia;
+}
+.megisfeher{
+    background-color: white;
+    border-radius: 25px;
+    width:160px;
+
+}
+#lista{
+    background-color:lightgray;
+}
+
+
+h1,
+h2 {
+    text-align: center;
+}
+
+a {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+
+    a:hover {
+        
+        background-color: fuchsia;
+    }
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: fuchsia;
+    font-size: 40px;
+}
+
+#lista {
+    background-color: lightgrey;
+}
+
+.megisfeher {
+    background-color: white;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.sorrendi {
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
