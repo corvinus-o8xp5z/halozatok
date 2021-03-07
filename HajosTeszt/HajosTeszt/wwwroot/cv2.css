@@ -3,6 +3,7 @@
     padding: 20px;
     border: 1px solid lightpink;
     border-radius: 25px;
+    display: flex;
 }
 .megisfeher{
     background-color: white;
@@ -25,11 +26,13 @@ a {
     border-radius: 25px;
     background-color: lightgreen;
     color: white;
+    flex: 1 1 auto;
 }
 
     a:hover {
         
         background-color: lightcyan;
+        color:black;
     }
 
 span {
@@ -56,4 +59,18 @@ span {
 img {
     display: block;
     margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+#article {
+    flex: 1 1 75%;
+}
+
+#aside {
+    flex: 1 1 25%;
 }
