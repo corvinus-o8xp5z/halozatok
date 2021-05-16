@@ -15,7 +15,7 @@ namespace HajosTeszt.Controllers
         {
             // GET: api/<JokeController>
             [HttpGet]
-            public IEnumerable<JokeModels.Joke> Get()
+            public IEnumerable<JokeModels. Joke> Get()
             {
                 FunnyDatabaseContext context = new FunnyDatabaseContext();
                 return context.Jokes.ToList(); //az IEnumerable után a<>-ben nem biztos, hogy JokeModels.Joke van
